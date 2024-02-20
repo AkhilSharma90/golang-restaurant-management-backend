@@ -97,7 +97,7 @@ func UpdateMenu() gin.HandlerFunc {
 		}
 
 		menuId := c.Param("menu_id")
-		filter := bson.M{"manuu_id": menuId}
+		filter := bson.M{"menu_id": menuId}
 
 		var updateObj primitive.D
 
